@@ -1,0 +1,33 @@
+.carousel-container {
+}
+.carousel-container {
+    width: 100%;
+    max-width: 100%; /* You can adjust the max-width to your needs */
+    margin: auto;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.336);
+    /* padding: 1.5rem; */
+    border-radius: 2rem;
+  }
+  
+  .carousel-image {
+    padding: 1rem;
+    border-radius: 2rem;
+    width: 100%;
+    height: auto; /* This ensures the image maintains its aspect ratio */
+    /* Adjust the max-height as needed */
+    max-height: 400px;  
+    object-fit: contains; /* Ensures the image covers the area */
+  }
+  
+  @media (max-width: 768px) {
+    .carousel-image {
+      max-height: 400px; /* Adjust the max-height for smaller screens */
+    }
+  }
+  
+  @media (max-width: 576px) {
+    .carousel-image {
+      max-height: 300px; /* Adjust the max-height for even smaller screens */
+    }
+  }
+  

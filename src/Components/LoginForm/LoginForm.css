@@ -1,0 +1,34 @@
+.loginpage-wrapper {
+    padding: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+  }
+  
+  .loginpage-container {
+    width: 100%;
+    max-width: 90%;
+    background-color: #f8f9fa;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 2rem;
+  }
+  
+  .loginform-container {
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  @media (max-width: 768px) {
+    .loginpage-container {
+      flex-direction: column;
+      padding: 1rem;
+    }
+  
+    .loginform-container {
+      margin-top: 2rem;
+    }
+  }
+  
